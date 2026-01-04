@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clément Roty - Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Orbitron:wght@400;600;800&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#about">À propos</a></li>
+            <li><a href="#skills">Compétences</a></li>
+            <li><a href="#projects">Projets</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <header>
+        <div>
+            <img src="img/pp.jpg" alt="Photo de Clément Roty">
+            <div>
+                <h1>CLÉMENT ROTY</h1>
+                <p>Mon Portfolio</p>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section id="about">
+            <h2>À propos de moi</h2>
+            <p>
+                Je m'appelle Clément Roty, étudiant en 2ᵉ année de Bachelor
+                Universitaire de Technologie (BUT) Informatique à l'IUT de Lille, à
+                Villeneuve-d'Ascq. Curieux, rigoureux et persévérant, je m'investis
+                pleinement dans les projets qui me sont confiés. Je recherche
+                actuellement un stage de deuxième année d'avril à juin dans une
+                entreprise de services du numérique (ESN), dans les domaines du
+                développement web, du développement logiciel, des réseaux ou de la
+                cybersécurité.
+            </p>
+            <p>
+                Au cours de ma formation, j'ai notamment réalisé une application de
+                matching en Java avec interface graphique JavaFX, ainsi qu'un site
+                web de covoiturage en HTML, CSS et SQL. Ces projets m'ont permis
+                de renforcer aussi bien mes compétences techniques que mon travail en
+                équipe. Motivé et organisé, je souhaite aujourd'hui mettre mes
+                compétences au service d'une entreprise pour continuer à progresser dans
+                un cadre professionnel.
+            </p>
+            <a href="CV_censure.pdf" target="_blank" class="cv-button">Télécharger mon CV</a>
+        </section>
+
+        <section id="skills">
+            <h2>Mes compétences</h2>
+            <div class="skills-container">
+                <div class="skill-box">
+                    <div class="skill-box-title">Compétences<br>Techniques</div>
+                    <div class="skill-bubbles">
+                        <div class="skill-bubble" style="top: 10%; left: 20%;">Java</div>
+                        <div class="skill-bubble" style="top: 20%; right: 15%; animation-delay: 0.2s;">JavaFX</div>
+                        <div class="skill-bubble" style="top: 40%; left: 5%; animation-delay: 0.4s;">POO</div>
+                        <div class="skill-bubble" style="top: 50%; right: 10%; animation-delay: 0.6s;">HTML/CSS</div>
+                        <div class="skill-bubble" style="top: 70%; left: 25%; animation-delay: 0.8s;">SQL</div>
+                        <div class="skill-bubble" style="bottom: 10%; right: 20%; animation-delay: 1s;">Linux</div>
+                        <div class="skill-bubble" style="bottom: 20%; left: 15%; animation-delay: 1.2s;">Git</div>
+                        <div class="skill-bubble" style="top: 30%; left: 40%; animation-delay: 1.4s;">PostgreSQL</div>
+                    </div>
+                </div>
+                <div class="skill-box">
+                    <div class="skill-box-title">Savoir-être</div>
+                    <div class="skill-bubbles">
+                        <div class="skill-bubble" style="top: 15%; left: 25%;">Sérieux</div>
+                        <div class="skill-bubble" style="top: 25%; right: 20%; animation-delay: 0.2s;">Curieux</div>
+                        <div class="skill-bubble" style="top: 45%; left: 10%; animation-delay: 0.4s;">Persévérant</div>
+                        <div class="skill-bubble" style="top: 55%; right: 15%; animation-delay: 0.6s;">Organisé</div>
+                        <div class="skill-bubble" style="bottom: 25%; left: 30%; animation-delay: 0.8s;">Rigoureux</div>
+                        <div class="skill-bubble" style="bottom: 15%; right: 25%; animation-delay: 1s;">Sociable</div>
+                        <div class="skill-bubble" style="top: 35%; right: 5%; animation-delay: 1.2s;">Adaptable</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects">
+            <h2>Mes projets</h2>
+            <div class="projects-grid">
+                <div class="featured-projects">
+                    <article class="project-card" data-project="0">
+                        <div class="project-image"><img src="img/laby/img5.png" alt="menu"></div>
+                        <div class="project-content">
+                            <h3>Jeu de Labyrinthe</h3>
+                            <p>Pour ce projet, toujours mené par équipe, où nous étions 5, nous devions créer un jeu de labyrinthe en java avec javafx pour l'interface graphique...</p>
+                            <button class="more-button">En savoir plus</button>
+                        </div>
+                    </article>
+                </div>
+
+                <div class="other-projects">
+                    <article class="project-card" data-project="1">
+                        <div class="project-image"><img src="img/sirtet/img0.png" alt="menu"></div>
+                        <div class="project-content">
+                            <h3>Sirtet</h3>
+                            <p>Découverte de l'environnement agile par groupe de 5. Nous devions inventer, créer et faire démonstration de notre projet...</p>
+                            <button class="more-button">En savoir plus</button>
+                        </div>
+                    </article>
+
+                    <article class="project-card" data-project="2">
+                        <div class="project-image"><img src="img/matching/img1.png" alt="menu"></div>
+                        <div class="project-content">
+                            <h3>Application de Matching</h3>
+                            <p>Le but de ce projet était de réaliser par groupe de 3, une application avec interface graphique...</p>
+                            <button class="more-button">En savoir plus</button>
+                        </div>
+                    </article>
+
+                    <article class="project-card" data-project="3">
+                        <div class="project-image"><img src="img/site/img1.png" alt="menu"></div>
+                        <div class="project-content">
+                            <h3>Plateforme Web de covoiturage</h3>
+                            <p>Ce projet réalisé par groupe de 3, avait pour but de parvenir à la création d'un site internet...</p>
+                            <button class="more-button">En savoir plus</button>
+                        </div>
+                    </article>
+
+                    <article class="project-card" data-project="4">
+                        <div class="project-image"><img src="img/battlequiz/img0.png" alt="menu"></div>
+                        <div class="project-content">
+                            <h3>Battle_Quiz_Deluxe</h3>
+                            <p>L'objectif de ce projet était de créer à partir de zéro un jeu ludo pédagogique...</p>
+                            <button class="more-button">En savoir plus</button>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Contact</h2>
+            <div class="contact-grid">
+                <div class="contact-item">
+                    <h3>Mail Universitaire :</h3>
+                    <a href="mailto:clement.roty.etu@univ-lille.fr">clement.roty.etu@univ-lille.fr</a>
+                    <h3>Mail professionnel :</h3>
+                    <a href="mailto:rotyclement@hotmail.com">rotyclement@hotmail.com</a>
+                </div>
+                <div class="contact-item">
+                    <h3>LinkedIn</h3>
+                    <a href="https://linkedin.com/in/clément-roty-47a308363">linkedin.com/in/clément-roty-47a308363</a>
+                    <h3>Github</h3>
+                    <a href="https://github.com/rtyclement">https://github.com/rtyclement</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <div class="project-modal" id="projectModal">
+        <div class="modal-content">
+            <button class="modal-close" onclick="closeModal()">×</button>
+            <div class="modal-images" id="modalImages"></div>
+            <div class="modal-body">
+                <div class="modal-description" id="modalDescription"></div>
+                <div class="modal-skills" id="modalSkills"></div>
+            </div>
+            <div class="modal-footer" id="modalFooter"></div>
+        </div>
+    </div>
+    <div class="fullscreen-overlay" id="fullscreenOverlay">
+    <button class="fullscreen-close" onclick="closeFullscreen()">×</button>
+    <img src="" alt="Fullscreen image" class="fullscreen-image" id="fullscreenImage">
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Clément Roty - Tous droits réservés</p>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
