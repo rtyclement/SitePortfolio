@@ -5,7 +5,7 @@ const projectsData = [
         description: "Pour ce projet, toujours mené par équipe, où nous étions 5, nous devions créer un jeu de labyrinthe en java avec javafx pour l'interface graphique en suivant les contraintes suivantes : Utilisation obligatoire du pattern Oberservable-Observer via son implémentation en MVC(modele-vue-controleur) en mode pull. La génération des labyrinthes est aléatoire, avec 2 algorithmes, l'un purement aléatoire à taux de mur, et l'autre qui est parfait, basé sur un parcours en DSF, avec une distance minimale entre entré et sortie.",
         skills: ["Java", "JavaFX", "Pattern MVC", "SOLID", "Clean Code"],
         link: "https://github.com/rtyclement/SAE_Labyrinthe",
-        images: ["/img/laby/img1.png","/img/laby/img2.png","/img/laby/img3.png","/img/laby/img4.png","/img/laby/img5.png","/img/laby/img6.png","/img/laby/img7.png","/img/laby/img8.png","/img/laby/img9.png","/img/laby/img10.png"]
+        images: ["./img/laby/img1.png","./img/laby/img2.png","./img/laby/img3.png","./img/laby/img4.png","./img/laby/img5.png","./img/laby/img6.png","./img/laby/img7.png","./img/laby/img8.png","./img/laby/img9.png","./img/laby/img10.png"]
     },
     {
         title: "Sirtet",
@@ -270,4 +270,5 @@ document.querySelectorAll("nav a").forEach(link => {
 
         requestAnimationFrame(scrollStep);
     });
+
 });
